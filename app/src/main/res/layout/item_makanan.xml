@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="3pt">
+    <LinearLayout
+        android:gravity="center"
+        android:background="@drawable/background_makanan"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="50pt"
+            android:layout_height="50pt"
+            android:id="@+id/ivGambarMakanan"
+            android:src="@drawable/asinanbetawi"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvNamaMakanan"
+            android:text="@string/asinanbetawi"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>
